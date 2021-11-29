@@ -1,0 +1,10 @@
+# ignored files
+*.tfstate
+*.tfstate.backup
+.terraform
+.idea
+*.iml
+go.sum
+*.terraform.lock.hcl
+_test/go.mod
+_test/go.sum
