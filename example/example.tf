@@ -12,19 +12,19 @@ module "aws_vpc" {
   enabled_subnet = true
   enabled_interface = true
   vpc_tags = {
-    created_by = "mahesh"
+    created_by = "xyz"
   }
 
   subnet_tags = {
-    tag = "rahul"
+    tag = "xyz"
   }
   cidr1 = "10.10.0.0/24"
   cidr2 = "10.10.1.0/24"
   subnet2_tags = {
-    tag = "abhi"
+    tag = "xyz"
   }
   gateway_tags = {
-   tag = "kamal"
+   tag = "xyz"
   }
 }
 
